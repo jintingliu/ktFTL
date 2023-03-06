@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BEP">
+      <UniqueIdentifier>{de418f46-0cc8-4455-8f26-c3621b4236cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MEP">
+      <UniqueIdentifier>{d9fb26bf-2fdf-4a34-9f5a-afe36a2e5951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FEP">
+      <UniqueIdentifier>{bc44287a-c8af-4491-b11d-b7bf261b2ddd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="BEP\bep_flashInterface.c">
+      <Filter>BEP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BEP\bep_flashInterface.h">
+      <Filter>BEP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
